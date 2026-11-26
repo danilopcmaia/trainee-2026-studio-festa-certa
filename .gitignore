@@ -1,0 +1,41 @@
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+*.user
+*.suo
+
+# Node.js / React / Vite
+node_modules/
+dist/
+.vite/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# .NET / C#
+bin/
+obj/
+[Bb]uild/
+*.dll
+*.exe
+*.pdb
+*.cache
+TestResults/
+.vs/
+.idea/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
